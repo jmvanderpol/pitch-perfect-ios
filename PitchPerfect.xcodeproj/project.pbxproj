@@ -3,17 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		65CDC4751DD22C7E0021D610 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CDC4741DD22C7E0021D610 /* AppDelegate.swift */; };
-		65CDC4771DD22C7E0021D610 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CDC4761DD22C7E0021D610 /* ViewController.swift */; };
+		65CDC4771DD22C7E0021D610 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CDC4761DD22C7E0021D610 /* RecordSoundsViewController.swift */; };
 		65CDC47A1DD22C7E0021D610 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65CDC4781DD22C7E0021D610 /* Main.storyboard */; };
-		65CDC47C1DD22C7E0021D610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65CDC47B1DD22C7E0021D610 /* Assets.xcassets */; };
 		65CDC47F1DD22C7E0021D610 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65CDC47D1DD22C7E0021D610 /* LaunchScreen.storyboard */; };
 		65CDC48A1DD22C7E0021D610 /* PitchPerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CDC4891DD22C7E0021D610 /* PitchPerfectTests.swift */; };
 		65CDC4951DD22C7E0021D610 /* PitchPerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CDC4941DD22C7E0021D610 /* PitchPerfectUITests.swift */; };
+		65CDC4A31DECC1850021D610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65CDC4A21DECC1850021D610 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +36,8 @@
 /* Begin PBXFileReference section */
 		65CDC4711DD22C7E0021D610 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65CDC4741DD22C7E0021D610 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65CDC4761DD22C7E0021D610 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65CDC4761DD22C7E0021D610 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		65CDC4791DD22C7E0021D610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		65CDC47B1DD22C7E0021D610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65CDC47E1DD22C7E0021D610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65CDC4801DD22C7E0021D610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65CDC4851DD22C7E0021D610 /* PitchPerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchPerfectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +46,7 @@
 		65CDC4901DD22C7E0021D610 /* PitchPerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchPerfectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65CDC4941DD22C7E0021D610 /* PitchPerfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchPerfectUITests.swift; sourceTree = "<group>"; };
 		65CDC4961DD22C7E0021D610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65CDC4A21DECC1850021D610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +98,9 @@
 			isa = PBXGroup;
 			children = (
 				65CDC4741DD22C7E0021D610 /* AppDelegate.swift */,
-				65CDC4761DD22C7E0021D610 /* ViewController.swift */,
+				65CDC4761DD22C7E0021D610 /* RecordSoundsViewController.swift */,
 				65CDC4781DD22C7E0021D610 /* Main.storyboard */,
-				65CDC47B1DD22C7E0021D610 /* Assets.xcassets */,
+				65CDC4A21DECC1850021D610 /* Assets.xcassets */,
 				65CDC47D1DD22C7E0021D610 /* LaunchScreen.storyboard */,
 				65CDC4801DD22C7E0021D610 /* Info.plist */,
 			);
@@ -189,7 +189,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = PocketCircuit;
+				ORGANIZATIONNAME = "VanDerPol, Jesse";
 				TargetAttributes = {
 					65CDC4701DD22C7E0021D610 = {
 						CreatedOnToolsVersion = 8.0;
@@ -208,7 +208,7 @@
 				};
 			};
 			buildConfigurationList = 65CDC46C1DD22C7E0021D610 /* Build configuration list for PBXProject "PitchPerfect" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -233,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65CDC47F1DD22C7E0021D610 /* LaunchScreen.storyboard in Resources */,
-				65CDC47C1DD22C7E0021D610 /* Assets.xcassets in Resources */,
+				65CDC4A31DECC1850021D610 /* Assets.xcassets in Resources */,
 				65CDC47A1DD22C7E0021D610 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65CDC4771DD22C7E0021D610 /* ViewController.swift in Sources */,
+				65CDC4771DD22C7E0021D610 /* RecordSoundsViewController.swift in Sources */,
 				65CDC4751DD22C7E0021D610 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,9 +412,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X3Y6G3W6ZF;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pocketcircuit.PitchPerfect;
+				PRODUCT_BUNDLE_IDENTIFIER = vanderpol.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,9 +425,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X3Y6G3W6ZF;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pocketcircuit.PitchPerfect;
+				PRODUCT_BUNDLE_IDENTIFIER = vanderpol.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
