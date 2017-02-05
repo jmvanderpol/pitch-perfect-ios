@@ -12,3 +12,20 @@ build_project:
     - mac 
     - mac-mini
     - serria
+
+archive_project:
+  stage: archive
+  script:
+    - xcodebuild clean archive -archivePath build/PitchPerfect -scheme PitchPerfect
+    - xcodebuild -exportArchive -exportFormat ipa -archivePath "build/PitchPerfect.xcarchive" -exportPath "build/PitchPerfect.ipa"
+  only:
+    - master
+  artifacts:
+    paths:
+    - build/PitchPerfect.ipa
+  tags:
+    - ios
+    - xcode 
+    - mac 
+    - mac-mini
+    - serria
