@@ -1,0 +1,14 @@
+stages:
+  - build
+
+build_project:
+  stage: build
+  script:
+    - xcodebuild clean -project PitchPerfect.xcodeproj -scheme PitchPerfect | xcpretty
+    - xcodebuild test -project PitchPerfect.xcodeproj -scheme PitchPerfect -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.2' | xcpretty -s
+  tags:
+    - ios
+    - xcode 
+    - mac 
+    - mac-mini
+    - serria
