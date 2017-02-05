@@ -189,7 +189,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "VanDerPol, Jesse";
+				ORGANIZATIONNAME = PocketCircuit;
 				TargetAttributes = {
 					65CDC4701DD22C7E0021D610 = {
 						CreatedOnToolsVersion = 8.0;
@@ -414,10 +414,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = X3Y6G3W6ZF;
+				DEVELOPMENT_TEAM = 9C5V5BBZV8;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = vanderpol.PitchPerfect;
+				PRODUCT_BUNDLE_IDENTIFIER = pocketCircuit.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -427,10 +427,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = X3Y6G3W6ZF;
+				DEVELOPMENT_TEAM = 9C5V5BBZV8;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = vanderpol.PitchPerfect;
+				PRODUCT_BUNDLE_IDENTIFIER = pocketCircuit.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
